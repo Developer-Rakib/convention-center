@@ -101,17 +101,17 @@ ul {
 .carusel-text button {
 	border: none;
 	outline: none;
-	background: white;
+	background: rgba(63, 135, 245, 1);
 	padding: 10px 30px;
 	border-radius: 30px;
-	color: rgba(63, 135, 245, 1);
+	color: white;
 	font-weight: 700;
 	border: 3px solid rgba(63, 135, 245, 1);
   transition:0.3s linear;
 }
 .carusel-text button:hover{
-  background-color: rgba(63, 135, 245, 1);
-  color: white;
+  background-color: white;
+  color: rgba(63, 135, 245, 1);
   padding: 10px 40px;
 
 }
@@ -150,7 +150,14 @@ ul {
   background-color: white;
   color: rgba(63, 135, 245, 1);
 	border: 3px solid rgba(63, 135, 245, 1);
-  padding: 10px 40px;
+  
+}
+.explor-btn i{
+  transition: 0.3s linear;
+
+}
+.explor-btn:hover i{
+  padding-left: 15px;
 }
 
 
@@ -214,6 +221,7 @@ ul {
   border-radius: 26px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   transform: translateY(-33px);
+  position: relative;
 }
 .pricing-card-active ul li i {
 	color: wheat;
@@ -223,4 +231,40 @@ ul {
 .pricing-card-active button {
 	background-color: white;
 	padding: 10px 53px;
+}
+.best {
+	position: absolute;
+	background-color: rgba(255, 78, 78, 1);
+	color: white;
+	padding: 5px 13px;
+	border-radius: 18px;
+	top: -13px;
+	right: 18px;
+}
+
+
+.reveiw {
+	width: 351px;
+	height: 304px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+  
+}
+.reveiw p {
+  color: rgba(108, 108, 108, 1);
+  letter-spacing: 0.2px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.clint-img{}
+.clint-img img{}
+.reveiw h3 {
+	font-size: 15px;
+	font-weight: 600;
+	color: rgba(12, 25, 32, 1);
+}
+.reveiw h4{
+  color: #747474;
+  font-size: 15px;
+	font-weight: 700;
 }
