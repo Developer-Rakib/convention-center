@@ -268,3 +268,46 @@ ul {
   font-size: 15px;
 	font-weight: 700;
 }
+
+/*------------------
+    pricing section  
+ -------------------*/
+
+
+ footer {
+	background: #0B0D17;
+}
+.copy-right {
+	font-size: 15px;
+	color: rgba(217, 219, 225, 1);
+	font-weight: 400;
+	margin-bottom: 0;
+  font-family: 'Manrope', sans-serif;
+}
+.app{}
+.app h5 {
+	font-size: 20px;
+	color: rgba(217, 219, 225, 1);
+	font-weight: 500;
+	font-family: 'Manrope', sans-serif;
+	margin-bottom: 14px;
+}
+.store {
+	background-color: black;
+	padding: 1px 10px;
+  border: 1px solid white;
+}
+.store i {
+	font-size: 25px;
+	padding: 10px;
+}
+.store-text{}
+.store-text p {
+	font-size: 9px;
+	margin-bottom: 0;
+}
+.store-text h3 {
+	font-size: 16px;
+	margin-bottom: 0;
+
+}
