@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+
+font-family: 'Manrope', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  font-size: 16px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+/*------------------
+    header section  
+ -------------------*/
+
+.menu-logo h3 {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+/*------------------
+    slider section  
+ -------------------*/
+
+.carousel-box1,.carousel-box2, .carousel-box3{
+  height: 576px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-box1{
+  background-image: url(images/banner.png);
+  
+}
+.carousel-box2{
+  background-image: url(images/banner3.jpg);
+  
+}
+.carousel-box3{
+  background-image: url(images/banner\(1\).jpg);
+  
+}
+.carousel-control-prev, .carousel-control-next{
+  z-index: 99;
+}
+.inner-slider{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.418);
+
+}
+.carusel-text {
+	max-width: 500px;
+}
+
+.carusel-text h1 {
+	font-size: 48px;
+	line-height: 57px;
+	font-weight: 600;
+}
+.carusel-text p {
+	font-weight: 300;
+	padding: 11px 0;
+}
+.carusel-text button {
+	border: none;
+	outline: none;
+	background: white;
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: rgba(63, 135, 245, 1);
+	font-weight: 700;
+	border: 3px solid rgba(63, 135, 245, 1);
+  transition:0.4s linear;
+}
+.carusel-text button:hover{
+  background-color: rgba(63, 135, 245, 1);
+  color: white;
+  
+}
