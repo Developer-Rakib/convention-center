@@ -43,9 +43,10 @@ ul {
     header section  
  -------------------*/
 
-.menu-logo h3 {
+ .menu-logo h3 {
 	font-size: 22px;
 	font-weight: 700;
+	margin-bottom: 0;
 }
 
 /*------------------
@@ -53,7 +54,7 @@ ul {
  -------------------*/
 
 .carousel-box1,.carousel-box2, .carousel-box3{
-  height: 576px;
+  height: 573px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -106,10 +107,57 @@ ul {
 	color: rgba(63, 135, 245, 1);
 	font-weight: 700;
 	border: 3px solid rgba(63, 135, 245, 1);
-  transition:0.4s linear;
+  transition:0.3s linear;
 }
 .carusel-text button:hover{
   background-color: rgba(63, 135, 245, 1);
   color: white;
-  
+  padding: 10px 40px;
+
 }
+
+
+/*------------------
+    album section  
+ -------------------*/
+
+
+.album-section{}
+.album-img{}
+.album-img img{}
+.album-text{}
+.album-text h1 {
+	font-size: 38px;
+	font-weight: 700;
+}
+.album-text p {
+	font-weight: 700;
+	line-height: 28px;
+	color: rgba(108, 108, 108, 1);
+}
+.explor-btn{
+  border: none;
+	outline: none;
+	background: rgba(63, 135, 245, 1);
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: white;
+	font-weight: 700;
+	border: 3px solid rgba(63, 135, 245, 1);
+  transition: 0.3s linear;
+}
+.explor-btn:hover{
+  background-color: white;
+  color: rgba(63, 135, 245, 1);
+	border: 3px solid rgba(63, 135, 245, 1);
+  padding: 10px 40px;
+}
+
+.pricing-card{}
+.pricing-card h1{}
+.pricing-card p{}
+.pricing-card h3{}
+.pricing-card ul{}
+.pricing-card ul li{}
+.pricing-card button{}
+
