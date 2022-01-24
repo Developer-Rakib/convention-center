@@ -64,11 +64,11 @@ ul {
   
 }
 .carousel-box2{
-  background-image: url(images/banner3.jpg);
+  background-image: url(images/banner4.jpg);
   
 }
 .carousel-box3{
-  background-image: url(images/banner\(1\).jpg);
+  background-image: url(images/banner5.jpg);
   
 }
 .carousel-control-prev, .carousel-control-next{
@@ -327,8 +327,9 @@ ul {
 }
 .store {
 	background-color: black;
+	color: white;
 	padding: 1px 10px;
-  border: 1px solid white;
+  	border: 1px solid white;
 }
 .store i {
 	font-size: 25px;
