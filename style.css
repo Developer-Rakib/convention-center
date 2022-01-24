@@ -211,11 +211,18 @@ ul {
   border: none;
 	outline: none;
 	background: white;
-	padding: 10px 53px;
+	padding: 10px 0px;
+	width: 100%;
 	border-radius: 30px;
 	color: rgba(63, 135, 245, 1);
 	font-weight: 700;
-  background-color: rgba(255, 238, 255, 0.753);
+  	background-color: rgba(255, 238, 255, 0.753);
+  	transition: 0.3s linear;
+	  border: 3px solid rgba(255, 238, 255, 0.753);
+}
+.pricing-card button:hover{
+	color: white;
+	background-color: rgba(63, 135, 245, 1);
 }
 
 .pricing-card-active{
@@ -225,6 +232,11 @@ ul {
   transform: translateY(-33px);
   position: relative;
 }
+.pricing-card-active button:hover{
+	color: white;
+	background-color: rgba(63, 135, 245, 1);
+	border: 3px solid white;
+}
 .pricing-card-active ul li i {
 	color: wheat;
   background-color: rgba(247, 250, 255, 0.164);
@@ -232,7 +244,6 @@ ul {
 }
 .pricing-card-active button {
 	background-color: white;
-	padding: 10px 53px;
 }
 .best {
 	position: absolute;
@@ -339,6 +350,11 @@ ul {
 		responsive layout  
 -------------------------------*/
 
+@media (max-width: 1000px){
+	.pricing-card-active {
+		transform: translateY(0px);
+	}
+}
 
 @media (max-width: 678px) {
 	.container{
@@ -362,9 +378,7 @@ ul {
 		line-height: 24px;
 		font-size: 14px;
 	}
-	.pricing-card-active {
-		transform: translateY(0px);
-	}
+	
 }
 @media (max-width: 500px){
 	.menu-logo h3 {
