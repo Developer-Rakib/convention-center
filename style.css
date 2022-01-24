@@ -45,7 +45,7 @@ ul {
 
  .menu-logo h3 {
 	font-size: 22px;
-	font-weight: 700;
+	font-weight: 600;
 	margin-bottom: 0;
 }
 
@@ -125,7 +125,9 @@ ul {
 .album-section{}
 .album-img{}
 .album-img img{}
-.album-text{}
+.album-text {
+	padding-bottom: 40px;
+}
 .album-text h1 {
 	font-size: 38px;
 	font-weight: 700;
@@ -171,10 +173,10 @@ ul {
 }
 .pricing-card {
 	padding: 39px 22px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: 26px;
-
-
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	border-radius: 26px;
+	width: 260px;
+	height: 449px;
 }
 .pricing-card h1 {
 	font-size: 36px;
@@ -330,4 +332,87 @@ ul {
 	font-size: 16px;
 	margin-bottom: 0;
 
+}
+
+
+/*-----------------------------
+		responsive layout  
+-------------------------------*/
+
+
+@media (max-width: 678px) {
+	.container{
+		max-width: 90%;
+	}
+	.carusel-text h1 {
+		font-size: 40px;
+		line-height: 52px;
+	}
+	.carusel-text p {
+		padding: 2px 0;
+		font-size: 13px;
+	}
+	.album-text {
+		padding-bottom: 40px;
+	}
+	.album-text h1 {
+		font-size: 35px;
+	}
+	.album-text p {
+		line-height: 24px;
+		font-size: 14px;
+	}
+	.pricing-card-active {
+		transform: translateY(0px);
+	}
+}
+@media (max-width: 500px){
+	.menu-logo h3 {
+		font-size: 17px;
+	}
+	.carousel-inner {
+		height: 490px;
+	}
+	.carusel-text {
+		max-width: 300px;
+	}
+	.carusel-text h1 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	.carusel-text p {
+		font-size: 12px;
+	}
+	.carusel-text button {
+		padding: 9px 28px;
+		font-size: 13px;
+	}
+	.album-text h1 {
+		font-size: 24px;
+	}
+	.album-text p {
+		line-height: 20px;
+		font-size: 13px;
+	}
+	.explor-btn {
+		font-size: 13px;
+	}
+	.app h5 {
+		font-size: 18px;
+		text-align: center;
+	}
+	.copy-right {
+		font-size: 14px;
+		margin-top: 28px;
+	}
+	.store-text p {
+		font-size: 8px;
+	}
+	.store i {
+		font-size: 20px;
+		padding: 8px;
+	}
+	.store-text h3 {
+		font-size: 13px;
+	}
 }

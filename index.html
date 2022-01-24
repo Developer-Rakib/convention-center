@@ -26,7 +26,7 @@
           <div class="container">
  
               <a class="menu-logo navbar-brand d-flex align-items-center" href="#">
-                  <h3 >Abacus Convention Center</h3>
+                  <h3>Pyramid Convention Centre</h3>
               </a>
  
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,16 +35,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Product</a>
+                  <a class="nav-link fw-bold active" aria-current="page" href="#">Product</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                  <a class="nav-link fw-bold active" aria-current="page" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><img src="img/icons/profile.png" alt=""></a>
+                  <a class="nav-link fw-bold active" aria-current="page" href="#"><img src="img/icons/profile.png" alt=""></a>
                 </li>
                 
               </ul>
@@ -101,21 +101,39 @@
 
       <!-- album section  -->
       <section class="album-section py-5">
-        <div class="container py-4">
-          <div class="row">
-            <div class="col-lg-6">
+        <div class="container position-relative py-4">
+          <div class="row g-4">
+            <div class="col-lg-6 col-md-6">
               <div class="album-img">
                 <img width="" src="images/wedding.png" alt="">
               </div>
             </div>
-            <div class="col-lg-6 d-flex align-items-center">
-              <div class="album-text ps-2">
+            <div class="col-lg-6 col-md-6 d-flex align-items-center">
+              <div class="album-text text-center text-md-start ps-2">
                 <h1>Every moment is Precious </h1>
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 <a href="https://web.programming-hero.com"><button class="explor-btn">Explore our album <i class="fas fa-arrow-right"></i></button></a>
               </div>
             </div>
           </div>
+          
+        <div
+          class="toast show position-absolute bottom-0 end-0 "
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="d-flex">
+            <div class="toast-body border-start border-5 border-primary"><i class="fas fa-gift text-primary fs-5 pr-3"></i> 20% off on next booking</div>
+            <button
+              type="button"
+              class="btn-close me-2 m-auto"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>         
+
         </div>
       </section>
 
@@ -125,9 +143,9 @@
           <h1 class="text-center">Our package</h1>
         </div>
         <div class="container py-5">
-          <div class="row py-5">
+          <div class="row py-5 gy-4">
 
-            <div class="col-lg-3 d-flex align-items-center">
+            <div class="col-lg-3 col-md-6 col-sm-6 d-flex align-items-center justify-content-center">
               <div class="pricing-card">
                 <h1>$300</h1>
                 <h3>Business fair</h3>
@@ -146,7 +164,7 @@
               </div>
             </div>
 
-            <div class="col-lg-3 d-flex align-items-center">
+            <div class="col-lg-3 col-sm-6 col-md-6 d-flex align-items-center justify-content-center">
               <div class="pricing-card">
                 <h1>$500</h1>
                 <h3>wedding basic</h3>
@@ -165,7 +183,7 @@
               </div>
             </div>
 
-            <div class="col-lg-3 d-flex align-items-center">
+            <div class="col-lg-3 col-sm-6 col-md-6 d-flex align-items-center justify-content-center">
               <div class="pricing-card pricing-card-active  position">
                 <h1 class="text-white">$800</h1>
                 <h3 class="text-white">Wedding plus</h3>
@@ -186,7 +204,7 @@
               </div>
             </div>
 
-            <div class="col-lg-3 d-flex align-items-center">
+            <div class="col-lg-3 col-sm-6 col-md-6 d-flex align-items-center justify-content-center">
               <div class="pricing-card">
                 <h1>$1200</h1>
                 <h3>Corporate event</h3>
@@ -216,9 +234,9 @@
           <h1 class="text-center">Happy Clients says</h1>
         </div>
         <div class="container">
-          <div class="row">
+          <div class="row gy-4">
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
               <div class="reveiw px-3 py-3 text-center">
                 <p>Slate helps you see how 
                   many more days you need 
@@ -231,7 +249,7 @@
                 <h4>Banker</h4>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
               <div class="reveiw px-4 py-3 text-center">
                 <p>Slate helps you see how 
                   many more days you need 
@@ -244,7 +262,7 @@
                 <h4>Banker</h4>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-12 d-flex align-items-center justify-content-center">
               <div class="reveiw px-3 py-3 text-center">
                 <p>Slate helps you see how 
                   many more days you need 
@@ -265,54 +283,54 @@
 
 
       <!-- Gallery section  -->
-      <section class="gallery-section py-5">
+      <section class="gallery-section py-5"> 
         <div class="pricing-title py-5">
           <h1 class="text-center">Gallery</h1>
         </div>
         <div class="container">
           <div class="row g-5">
 
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w1.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w9.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w2.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w3.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w4.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w5.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w6.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w7.jpg" alt="">
               </div>
             </div>
-            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center">
               <div class="gallery rounded-2 p-2">
                 <img width="300" class="rounded" src="images/w8.jpg" alt="">
               </div>
@@ -320,19 +338,20 @@
 
           </div>
         </div>
-      </section>
-
+      </section> 
+      
+    
 
 
       <!-- Questions section  -->
       <section class="questions-section py-4">
-        <div class="pricing-title py-5">
+        <div class="pricing-title py-5 px-2">
           <h1 class="text-center">Frequently Asked Questions</h1>
         </div>
         <div class="container questions-items pb-5">
-          <div class="row">
+          <div class="row gy-5">
 
-            <div class="col-lg-6">
+            <div class="col-lg-6  order-2">
               <div class="questions">                
                 <div class="accordion" id="accordionPanelsStayOpenExample">
 
@@ -392,7 +411,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 order-lg-2 d-flex align-items-center justify-content-center">
               <div class="questions-img">
                 <img width="550" src="images/people.png" alt="">
               </div>
@@ -406,7 +425,7 @@
 
       <footer class="footer-section py-5">
         <div class="container py-3">
-          <div class="footer-contant d-flex d-flex justify-content-between align-items-center text-white">
+          <div class="footer-contant d-flex  justify-content-between align-items-center flex-column-reverse flex-sm-row text-white">
             <p class="copy-right">&copy; 2020 bike. All rights reserved</p>
             <div class="app">
               <h5>Get The App</h5>
@@ -420,8 +439,8 @@
               <div class="store d-flex align-items-center rounded-3">
                 <i class="fab fa-google-play"></i>
                 <div class="store-text">
-                  <p>Download on the</p>
-                  <h3>App Store</h3>
+                  <p>Get in</p>
+                  <h3>Play Store</h3>
                 </div>
               </div>
             </div>
